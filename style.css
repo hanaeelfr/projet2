@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Poppins", sans-serif;
+}
+aside{
+    background-color: #f44336!important;
+    background-size: cover;
+    background-position: left;
+    position:fixed;
+    height: 620px;
+    width: 280px;
+    color: white;
+}
+aside ul li{
+    text-align:left;
+    font-weight: 600;
+    padding: 5px;
+   cursor: pointer;
+   font-size: 18px;
+   padding-left: 1cm;
+}
+aside ul li:hover ,aside ul li:hover a {
+    background-color: rgb(255, 255, 255);
+   color: black!important;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+aside h2{
+    padding: 50px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 29px;
+}
+main{
+    float: right;
+    height: 900px;
+    width: 930px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+h2{
+    color: #f44336;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+.tirer{
+        width: 40px;
+        height: 1px;
+
+        border: 4px solid #F44336;
+       
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+}
+    .grande{
+        float: right;   
+    margin-top: 40px;
+    }
+    .photo{
+        height: 250px;
+        width: 45%;
+        margin-right: 20px;
+    }
+    .image{
+        height: 150px;
+        width: 45%;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .service{
+        margin-bottom: 2px; 
+    }
+    .service p{
+        margin-bottom: 20px;
+    }
+    .picture div img{
+        width: 100%;
+        filter: grayscale(50%);
+        
+    }
+    .picture{
+        display: flex;
+        gap: 15px;
+    }
+    .picture div{
+        width: 280px;
+        height: 350px;
+        background-color:#f1f1f1
+        
+    
+    }
+    .picture small{
+    color: rgb(151, 148, 148);
+    margin-left: 20px;
+    }
+    .picture h4{
+        margin-left: 20px;
+    }
+    .picture p{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+.tableau{
+    display: flex;
+    height: 350px;
+    width: 100%;
+}
+  #Basic th{
+    background-color: rgb(90, 83, 83);
+    color: white;
+    height: 70px;
+    }
+  #Basic td{
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  tr{
+    height: 50px;
+  }
+  .price{
+    height: 100px;
+  }
+  .paragraphe{
+    color: rgb(147, 143, 143);
+  }
+
+  .prix{
+    font-size: x-large;
+  }
+  #Basic{
+   
+    margin-left: 1px;
+    width: 430px;
+    height: 400px;
+     background-color:#f1f1f1;
+     
+     
+  }
+.Pro{
+    margin-left: 15px;
+    background-color: #f1f1f1;
+    width: 430px;
+    height: 400px;
+}
+.Pro th{
+    background-color: #F44336;
+    color: white;
+    height: 70px;
+}
+.Pro td{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.name, .email, .message{
+    width: 98%;
+    height: 1cm;
+    margin: 15px 0p
+}
+.contact{
+    margin-top: 170px;
+}
+#witheButom{
+    background-color: white;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+}
+#redButton{
+    background-color:#F44336;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.boutton{
+    width: 915px;
+    height: 1cm;
+    background-color: #F44336;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer{
+    background-color:#f1f1f1;
+   width: 100%;
+   height: 100px;
+   margin-left:  0px;
+   position: absolute;
+  top: 2950px;
+  z-index: -1;
+}
+footer p{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.icons{
+    text-decoration: none;
+    padding-left: 350px ;
+    font-size: x-large;
+    color: black;
+
+}
+i{
+    padding: 15px 15px 15px 0; 
+}
+
+
+
+
+
+
+
